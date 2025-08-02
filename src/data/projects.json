@@ -1,0 +1,258 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "slug": "ai-chatbot-system",
+      "title": "智能客服聊天机器人",
+      "description": "基于大语言模型的智能客服系统，支持多轮对话和知识库问答",
+      "coverImage": "/images/chatbot-cover.jpg",
+      "tags": ["AI", "聊天机器人", "NLP", "React"],
+      "accessKey": "chatbot2023",
+      "status": "in_progress",
+      "progress": 75,
+      "startDate": "2023-10-01",
+      "endDate": "2023-12-15",
+      "techStack": ["React", "Node.js", "OpenAI API", "MongoDB"],
+      "client": "某科技公司",
+      "overview": {
+        "background": "客户需要一个智能客服系统来提高客户服务效率",
+        "objectives": [
+          "构建智能对话系统",
+          "集成知识库管理",
+          "提供管理后台",
+          "支持多平台部署"
+        ],
+        "deliverables": [
+          "前端用户界面",
+          "后端API服务",
+          "管理后台",
+          "部署文档"
+        ]
+      },
+      "milestones": [
+        {
+          "name": "需求分析与设计",
+          "status": "completed",
+          "dueDate": "2023-10-15",
+          "completedDate": "2023-10-14"
+        },
+        {
+          "name": "核心功能开发",
+          "status": "completed",
+          "dueDate": "2023-11-15",
+          "completedDate": "2023-11-12"
+        },
+        {
+          "name": "测试与优化",
+          "status": "in_progress",
+          "dueDate": "2023-12-01",
+          "completedDate": null
+        },
+        {
+          "name": "部署与交付",
+          "status": "pending",
+          "dueDate": "2023-12-15",
+          "completedDate": null
+        }
+      ],
+      "documents": [
+        {
+          "title": "项目需求文档",
+          "file": "/docs/ai-chatbot/requirements.md"
+        },
+        {
+          "title": "技术架构说明",
+          "file": "/docs/ai-chatbot/architecture.md"
+        },
+        {
+          "title": "API接口文档",
+          "file": "/docs/ai-chatbot/api.md"
+        }
+      ],
+      "downloads": [
+        {
+          "name": "源代码包",
+          "description": "完整的项目源代码",
+          "url": "https://github.com/example/ai-chatbot/archive/main.zip",
+          "icon": "code",
+          "size": "15.2 MB"
+        },
+        {
+          "name": "部署脚本",
+          "description": "Docker部署配置文件",
+          "url": "/downloads/ai-chatbot/deployment.zip",
+          "icon": "server",
+          "size": "2.1 MB"
+        }
+      ],
+      "demos": [
+        {
+          "title": "在线演示",
+          "type": "iframe",
+          "url": "https://demo.example.com/chatbot",
+          "description": "可以直接体验聊天机器人功能"
+        },
+        {
+          "title": "功能演示视频",
+          "type": "video",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "完整功能演示视频"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "slug": "ecommerce-mobile-app",
+      "title": "电商移动应用",
+      "description": "跨平台电商移动应用，支持商品浏览、购物车、支付等完整功能",
+      "coverImage": "/images/ecommerce-cover.jpg",
+      "tags": ["移动应用", "电商", "React Native", "支付"],
+      "accessKey": "mobile2023",
+      "status": "completed",
+      "progress": 100,
+      "startDate": "2023-08-01",
+      "endDate": "2023-10-30",
+      "techStack": ["React Native", "Node.js", "PostgreSQL", "Redis"],
+      "client": "某电商公司",
+      "overview": {
+        "background": "客户需要一个功能完整的移动电商应用",
+        "objectives": [
+          "开发跨平台移动应用",
+          "集成支付系统",
+          "实现用户管理",
+          "优化购物体验"
+        ],
+        "deliverables": [
+          "iOS应用",
+          "Android应用",
+          "后端服务",
+          "管理后台"
+        ]
+      },
+      "milestones": [
+        {
+          "name": "UI/UX设计",
+          "status": "completed",
+          "dueDate": "2023-08-15",
+          "completedDate": "2023-08-14"
+        },
+        {
+          "name": "核心功能开发",
+          "status": "completed",
+          "dueDate": "2023-09-30",
+          "completedDate": "2023-09-28"
+        },
+        {
+          "name": "支付集成",
+          "status": "completed",
+          "dueDate": "2023-10-15",
+          "completedDate": "2023-10-12"
+        },
+        {
+          "name": "测试与发布",
+          "status": "completed",
+          "dueDate": "2023-10-30",
+          "completedDate": "2023-10-29"
+        }
+      ],
+      "documents": [
+        {
+          "title": "产品需求文档",
+          "file": "/docs/ecommerce/requirements.md"
+        },
+        {
+          "title": "用户手册",
+          "file": "/docs/ecommerce/user-guide.md"
+        }
+      ],
+      "downloads": [
+        {
+          "name": "Android APK",
+          "description": "Android安装包",
+          "url": "/downloads/ecommerce/app-release.apk",
+          "icon": "smartphone",
+          "size": "28.5 MB"
+        },
+        {
+          "name": "iOS IPA",
+          "description": "iOS安装包",
+          "url": "/downloads/ecommerce/app.ipa",
+          "icon": "smartphone",
+          "size": "32.1 MB"
+        }
+      ],
+      "demos": [
+        {
+          "title": "应用演示",
+          "type": "video",
+          "url": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+          "description": "移动应用完整功能演示"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "slug": "data-analytics-dashboard",
+      "title": "数据分析仪表板",
+      "description": "企业级数据可视化分析平台，支持多数据源接入和实时监控",
+      "coverImage": "/images/dashboard-cover.jpg",
+      "tags": ["数据可视化", "Dashboard", "Analytics", "Vue.js"],
+      "accessKey": "dashboard2023",
+      "status": "planning",
+      "progress": 25,
+      "startDate": "2023-11-01",
+      "endDate": "2024-02-28",
+      "techStack": ["Vue.js", "Python", "FastAPI", "PostgreSQL", "Redis"],
+      "client": "某制造企业",
+      "overview": {
+        "background": "客户需要统一的数据分析平台来监控业务指标",
+        "objectives": [
+          "构建实时数据仪表板",
+          "支持多数据源接入",
+          "提供自定义报表",
+          "实现权限管理"
+        ],
+        "deliverables": [
+          "Web仪表板",
+          "数据处理服务",
+          "报表系统",
+          "用户管理系统"
+        ]
+      },
+      "milestones": [
+        {
+          "name": "需求调研",
+          "status": "completed",
+          "dueDate": "2023-11-15",
+          "completedDate": "2023-11-14"
+        },
+        {
+          "name": "系统设计",
+          "status": "in_progress",
+          "dueDate": "2023-12-01",
+          "completedDate": null
+        },
+        {
+          "name": "核心开发",
+          "status": "pending",
+          "dueDate": "2024-01-31",
+          "completedDate": null
+        },
+        {
+          "name": "测试部署",
+          "status": "pending",
+          "dueDate": "2024-02-28",
+          "completedDate": null
+        }
+      ],
+      "documents": [
+        {
+          "title": "需求分析报告",
+          "file": "/docs/dashboard/requirements.md"
+        }
+      ],
+      "downloads": [],
+      "demos": []
+    }
+  ]
+}
